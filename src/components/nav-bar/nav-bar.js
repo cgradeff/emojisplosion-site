@@ -24,7 +24,7 @@ export function NavBar() {
                 <span css={{color: colors.green}}>i</span>
                 <span css={{color: colors.orange0}}>o</span>
                 <span css={{color: colors.pink}}>n</span>
-                {" "}Demo Site</h1>
+            </h1>
             <a href={ghLink} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faGithub} css={styles.icon}/>
             </a>

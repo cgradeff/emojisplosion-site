@@ -1,14 +1,18 @@
 /** @jsxImportSource @emotion/react */
-import { SideBar } from "../side-bar/side-bar";
-import { ExplosionContainer } from "../explosion-container/explosion-container";
 
+import { Anchor } from "../anchor/anchor";
 import * as styles from "./styles";
 
-export function HomeContianer() {
+export function HomeContainer() {
     return (
-        <div css={styles.homeContianer}>
-            <ExplosionContainer></ExplosionContainer>
-            <SideBar></SideBar>
+        <div css={styles.homeContainer}>
+            <h1><code>emojisplosion</code></h1>
+            <p>💥 Blasts 😄 emoji 😊 like 🎆 fireworks 🎇 all up in your 💻 HTML 📄 page. 😍</p>
+            <div css={styles.links}>
+                <Anchor href="https://github.com/JoshuaKGoldberg/emojisplosion">GitHub</Anchor>
+                <Anchor href="https://github.com/JoshuaKGoldberg/astro-konamimojisplosion">Astro Plugin</Anchor>
+                <Anchor href="https://github.com/JoshuaKGoldberg/typedoc-plugin-konamimojisplosion">TypeDoc Plugin</Anchor>
+            </div>
         </div>
     )
 }

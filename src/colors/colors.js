@@ -1,6 +1,7 @@
 export const colors = {
     white: "#ffffff",
     gray: "#cccccc",
+    grayTint: "#cfc0cf",
     pink: "#FA78BD",
     orange0: "#FCAD70",
     orange100: "#F89346",
